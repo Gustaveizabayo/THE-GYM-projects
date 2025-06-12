@@ -1,16 +1,16 @@
-/* === Base Reset === */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-/* === Body & Layout === */
+
 body {
    font-family: 'Segoe UI', sans-serif;
   background: 
    linear-gradient(to bottom, rgba(249, 240, 255, 0) 50%, #F9F0FF 50%),
-    url('/assets/images/background-pattern-desktop.svg') 100%;
+    url('/THE_GYM/faq-accordion/assets/images/background-pattern-desktop.svg') 100% ;
   
   min-height: 100vh;
   display: flex;
@@ -19,14 +19,14 @@ body {
   padding: 1rem;
 }
 
-/* === FAQ Container === */
+
 .faq-container {
   max-width: 600px;
   width: 100%;
   padding: 1rem;
 }
 
-/* === FAQ Box === */
+
 .faq-box {
   background: white;
   border-radius: 16px;
@@ -49,7 +49,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-/* === FAQ Items === */
+
 .faq-item {
   border-top: 1px solid #e0e0e0;
 }
@@ -58,7 +58,7 @@ h1 {
   border-top: none;
 }
 
-/* === Question Button === */
+
 .faq-question {
   width: 100%;
   text-align: left;
@@ -102,14 +102,14 @@ h1 {
   color: #AD28EB;
 }
 
-/* === Icon === */
+
 .icon {
   font-size: 1.25rem;
   color: #AD28EB;
   transition: transform 0.3s ease;
 }
 
-/* === Answer Toggle === */
+
 .faq-answer {
   max-height: 0;
   overflow: hidden;
@@ -127,7 +127,7 @@ h1 {
   color: #555;
 }
 
-/* === Responsive Adjustments === */
+
 @media (max-width: 768px) {
   .faq-box {
     padding: 1.5rem;

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Interactive-Rating-component</title>
+</head>
+<body>
+  <div class="box-container" id="rating-card">
+    <img id="icon" src="./images/icon-star.svg" alt="Star icon">
+    <h1 class="heading">How did We do?</h1>
+    <p class="paragraph">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering</p>
+
+    <div class="numbers">
+      <span class="rating-number">1</span>
+      <span class="rating-number">2</span>
+      <span class="rating-number">3</span>
+      <span class="rating-number">4</span>
+      <span class="rating-number">5</span>
+    </div>
+
+    <div class="button">
+      <button id="submit-btn">SUBMIT</button>
+    </div>
+  </div>
+
+  <div class="box-container hidden" id="thank-you-card">
+    <img src="./images/illustration-thank-you.svg" alt="Thank You illustration" class="thank-you-illustration">
+    <div class="selected-rating-message"> You selected <span id="selected-rating-display"></span> out of 5
+    </div>
+    <h2 class="thank-you-heading">Thank you!</h2> <p class="thank-you-paragraph">
+      We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
