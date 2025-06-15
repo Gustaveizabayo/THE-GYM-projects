@@ -1,0 +1,50 @@
+body {
+margin: 0;
+padding: 0;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-color: antiquewhite;
+font-family: Arial, sans-serif;
+text-align: center;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 0 0 10px 0;
+}
+h2 {
+  font-size: 2rem;
+   font-style: bold;
+  margin: 0 0 10px 0;
+}
+
+.drum-set {
+  font-style: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px ;
+  padding: 20px;
+  
+  
+  
+}
+
+.drum-set button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  border : none;
+  background-color: #857b7b;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+.drum-set button:hover {
+  background-color: #6c5f5f;
+}
