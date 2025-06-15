@@ -1,2 +1,1 @@
-THE-GYM-projects
-Welcome to THE-GYM-projects repository! This is a collection of various front-end development projects, serving as a personal portfolio and playground for honing web development skills. Each sub-directory represents a distinct project with its own set of features and learning objectives.
+😊Welcome to THE-GYM-projects repository! This is a collection of various front-end development projects, serving as a personal portfolio and playground for honing web development skills. Each sub-directory represents a distinct project with its own set of features and learning objectives.
